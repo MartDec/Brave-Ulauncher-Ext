@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Brave Browser",
+  "description": "Brave Browser extension for Ulauncher",
+  "developer_name": "Martin Déclert",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "brave_kw",
+      "type": "keyword",
+      "name": "Brave",
+      "description": "Brave Browser extension",
+      "default_value": "Brave"
+    },
+    {
+      "id": "default_new_tab_url",
+      "type": "input",
+      "name": "Default URL",
+      "description": "Default new tab's URL",
+      "default_value": "https://www.qwant.com/"
+    }
+  ]
+}
