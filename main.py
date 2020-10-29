@@ -40,7 +40,7 @@ class KeywordQueryEventListener(EventListener):
                 ExtensionResultItem(
                     icon='images/icon.png',
                     name=i,
-                    description='Item description %s' % i,
+                    description=str(),
                     on_enter=ExtensionCustomAction(action, keep_app_open=True)
                 )
             )
