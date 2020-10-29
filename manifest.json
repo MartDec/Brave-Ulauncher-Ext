@@ -12,7 +12,7 @@
       "id": "brave_kw",
       "type": "keyword",
       "name": "Brave",
-      "description": "Brave Browser extension",
+      "description": "Keyword to use this extension",
       "default_value": "Brave"
     },
     {
